@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Container
+{
+    width: 24rem;
+    height: 29rem;
+    margin: 50px auto;
+    padding: 0.7rem;
+    box-shadow: 0 3px 10px 1px gray;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+input, select
+{
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+button
+{
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 5rem;
+    margin: 0 auto;
+}
+#result {
+    font-size: 1.2em;
+    color: #333;
+}

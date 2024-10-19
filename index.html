@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task5_2</title>
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+</head>
+<body>
+    <div class="Container">
+        <h1>Length Converter</h1>
+
+        <label for="length">Input The Length</label>
+        <input type="number" id="length">
+
+        <label for="fromUnit">From</label>
+        <select id="fromUnit">
+            <option value="meters">Meter (M)</option>
+            <option value="centimeters">Centimeter (cm)</option>
+            <option value="kilometers">Kilometer (KM)</option>
+            <option value="miles">Mile</option>
+        </select>
+
+        <label for="toUnit">To</label>
+        <select id="toUnit">
+            <option value="meters">Meter (M)</option>
+            <option value="centimeters">Centimeter (cm)</option>
+            <option value="kilometers">Kilometer (KM)</option>
+            <option value="miles">Miles</option>
+        </select>
+
+        <button onclick="convertLength()">Convert</button>
+
+        <div id="result">Result Is :</div>
+    </div>
+
+<script src="./Assets/Script/js.js"></script>
+
+</body>
+</html>
